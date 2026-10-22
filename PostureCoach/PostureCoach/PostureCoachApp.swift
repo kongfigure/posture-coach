@@ -5,6 +5,7 @@
 //  Created by Nicole Kong Mei Ning on 22/10/2026.
 //
 
+import SwiftData
 import SwiftUI
 
 @main
@@ -13,5 +14,6 @@ struct PostureCoachApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Session.self)
     }
 }
